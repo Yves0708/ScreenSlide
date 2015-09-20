@@ -13,7 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class ScreenSlideActivity extends FragmentActivity {
-	private ViewPager mPager;
+	
+	private ViewPager mPager;//Layout是viewPager, fragment是放在viewPager裡面
 	private PagerAdapter mPagerAdapter;
 
 	@Override
